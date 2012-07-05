@@ -57,7 +57,9 @@ namespace DojoTimer
         {
             bool result = !string.IsNullOrEmpty(Person1) && !string.IsNullOrEmpty(Person2);
             if (!result)
-                MessageBox.Show(this, "Please, if you want to save, make sure you fill both boxes.", "Validation",
+                MessageBox.Show(this, 
+				                Mono.Unix.Catalog.GetString("Please, if you want to save, make sure you fill both boxes."), 
+				                Mono.Unix.Catalog.GetString("Validation"),
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             return result;
         }

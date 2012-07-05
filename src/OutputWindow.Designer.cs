@@ -48,7 +48,7 @@
             this.OutputText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.OutputText.Size = new System.Drawing.Size(772, 364);
             this.OutputText.TabIndex = 0;
-            this.OutputText.Text = "Running...";
+            this.OutputText.Text = Mono.Unix.Catalog.GetString("Running...");
             // 
             // CloseButton
             // 
@@ -60,7 +60,7 @@
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(772, 45);
             this.CloseButton.TabIndex = 1;
-            this.CloseButton.Text = "Close (press ENTER)";
+            this.CloseButton.Text = Mono.Unix.Catalog.GetString("Close (press ENTER)");
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -73,9 +73,9 @@
             this.OutputTitleBar.Name = "OutputTitleBar";
             this.OutputTitleBar.Size = new System.Drawing.Size(772, 60);
             this.OutputTitleBar.TabIndex = 10;
-            this.OutputTitleBar.TitleDescription = "The result of everything we did here. We want it GREEN!";
+            this.OutputTitleBar.TitleDescription = Mono.Unix.Catalog.GetString("The result of everything we did here. We want it GREEN!");
             this.OutputTitleBar.TitleIcon = "~";
-            this.OutputTitleBar.TitleText = "Running tests...";
+            this.OutputTitleBar.TitleText = Mono.Unix.Catalog.GetString("Running tests...");
             // 
             // OutputWindow
             // 
@@ -90,7 +90,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "OutputWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Output";
+            this.Text = Mono.Unix.Catalog.GetString("Output");
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();

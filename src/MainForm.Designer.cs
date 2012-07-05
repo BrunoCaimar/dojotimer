@@ -40,6 +40,8 @@
             this.RunButton = new System.Windows.Forms.Button();
             this.LinkButton = new System.Windows.Forms.Button();
             this.TitleBar = new DojoTimer.MainTitleBar();
+
+			this.SettingsButtonToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // StartButton
@@ -52,6 +54,7 @@
             this.StartButton.ForeColor = System.Drawing.Color.White;
             this.StartButton.Location = new System.Drawing.Point(152, 34);
             this.StartButton.Name = "StartButton";
+
             this.StartButton.Size = new System.Drawing.Size(47, 47);
             this.StartButton.TabIndex = 1;
             this.StartButton.Text = "4";
@@ -240,6 +243,17 @@
             this.Deactivate += new System.EventHandler(this.MainForm_Deactivate);
             this.ResumeLayout(false);
 
+			// Toolbar Icons 
+			this.SettingsButtonToolTip.SetToolTip(this.SettingsButton, Mono.Unix.Catalog.GetString("Settings"));
+			this.SettingsButtonToolTip.SetToolTip(this.CommitButton, Mono.Unix.Catalog.GetString("Commit"));
+			this.SettingsButtonToolTip.SetToolTip(this.CloseButton, Mono.Unix.Catalog.GetString("Close"));
+			this.SettingsButtonToolTip.SetToolTip(this.TopMostCheck, Mono.Unix.Catalog.GetString("Always on Top"));
+
+			// Commands
+			this.SettingsButtonToolTip.SetToolTip(this.RunButton, Mono.Unix.Catalog.GetString("Run"));
+			this.SettingsButtonToolTip.SetToolTip(this.StartButton, Mono.Unix.Catalog.GetString("Start"));
+			this.SettingsButtonToolTip.SetToolTip(this.ResetButton, Mono.Unix.Catalog.GetString("Reset"));
+
         }
 
         #endregion
@@ -255,6 +269,8 @@
         private System.Windows.Forms.Button SettingsButton;
         private System.Windows.Forms.Button RunButton;
         private System.Windows.Forms.Button LinkButton;
+
+		private System.Windows.Forms.ToolTip SettingsButtonToolTip;
     }
 }
 

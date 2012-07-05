@@ -70,7 +70,7 @@
             this.SaveCommitButton.Name = "SaveCommitButton";
             this.SaveCommitButton.Size = new System.Drawing.Size(113, 51);
             this.SaveCommitButton.TabIndex = 4;
-            this.SaveCommitButton.Text = "Save and commit.";
+            this.SaveCommitButton.Text = Mono.Unix.Catalog.GetString("Save and commit.");
             this.SaveCommitButton.UseVisualStyleBackColor = true;
             this.SaveCommitButton.Click += new System.EventHandler(this.SaveCommitButton_Click);
             // 
@@ -85,7 +85,7 @@
             this.OnlySaveButton.Name = "OnlySaveButton";
             this.OnlySaveButton.Size = new System.Drawing.Size(113, 51);
             this.OnlySaveButton.TabIndex = 5;
-            this.OnlySaveButton.Text = "Save, but don\'t commit.";
+            this.OnlySaveButton.Text = Mono.Unix.Catalog.GetString("Save, but don\'t commit.");
             this.OnlySaveButton.UseVisualStyleBackColor = true;
             this.OnlySaveButton.Click += new System.EventHandler(this.OnlySaveButton_Click);
             // 
@@ -101,7 +101,7 @@
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(113, 51);
             this.CloseButton.TabIndex = 6;
-            this.CloseButton.Text = "Leave me alone!";
+            this.CloseButton.Text = Mono.Unix.Catalog.GetString("Leave me alone!");
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
@@ -113,7 +113,7 @@
             this.ClickHereLabel.Name = "ClickHereLabel";
             this.ClickHereLabel.Size = new System.Drawing.Size(279, 33);
             this.ClickHereLabel.TabIndex = 8;
-            this.ClickHereLabel.Text = "Hey, you, click here!";
+            this.ClickHereLabel.Text = Mono.Unix.Catalog.GetString("Hey, you, click here!");
             // 
             // formTitleBar1
             // 
@@ -125,9 +125,9 @@
             this.formTitleBar1.Name = "formTitleBar1";
             this.formTitleBar1.Size = new System.Drawing.Size(482, 60);
             this.formTitleBar1.TabIndex = 7;
-            this.formTitleBar1.TitleDescription = "The one will stay should come first.";
+            this.formTitleBar1.TitleDescription = Mono.Unix.Catalog.GetString("The one will stay should come first.");
             this.formTitleBar1.TitleIcon = "^";
-            this.formTitleBar1.TitleText = "Who was here?";
+            this.formTitleBar1.TitleText = Mono.Unix.Catalog.GetString("Who was here?");
             // 
             // WhoWasHereForm
             // 

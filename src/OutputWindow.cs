@@ -42,9 +42,9 @@ namespace DojoTimer
         {
             var scheme = result ? ColorScheme.Green : ColorScheme.Red;
             scheme.ApplyTo(this);
-            OutputTitleBar.TitleText = result ? "SUCCEEDED" : "FAILED";
+            OutputTitleBar.TitleText = result ? Mono.Unix.Catalog.GetString("SUCCEEDED") : Mono.Unix.Catalog.GetString("FAILED");
             OutputTitleBar.TitleDescription = result ?
-                "Yay, it works!" : "Gotta fix it. Bad, bad programmer.";
+                Mono.Unix.Catalog.GetString("Yay, it works!") : Mono.Unix.Catalog.GetString("Gotta fix it. Bad, bad programmer.");
         }
 
         private void button1_Click(object sender, EventArgs e)

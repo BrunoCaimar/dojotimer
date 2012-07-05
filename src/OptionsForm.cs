@@ -72,7 +72,7 @@ namespace DojoTimer
         private void CheckDirectory(FormClosingEventArgs e)
         {
             if (!Directory.Exists(WorkingDirectoryInput.Text) &&
-                MessageBox.Show("The directory you selected doesn't seem to exist. Are you sure you want to close?", "Warning",
+                MessageBox.Show(Mono.Unix.Catalog.GetString("The directory you selected doesn't seem to exist. Are you sure you want to close?"), "Warning",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.Yes)
             {
                 e.Cancel = true;
@@ -81,7 +81,7 @@ namespace DojoTimer
 
         private void ResetButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(this, "Are you sure?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+            if (MessageBox.Show(this, Mono.Unix.Catalog.GetString("Are you sure?"), Mono.Unix.Catalog.GetString("Confirmation"), MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                 SetOptions(new Options());
         }
 

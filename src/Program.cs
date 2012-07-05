@@ -15,6 +15,7 @@ namespace DojoTimer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+			Mono.Unix.Catalog.Init ("DojoTimer", "./locale");
             Application.Run(new MainForm());
         }
     }

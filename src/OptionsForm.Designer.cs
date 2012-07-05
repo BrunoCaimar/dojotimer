@@ -64,7 +64,7 @@
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(178, 43);
             this.CloseButton.TabIndex = 2;
-            this.CloseButton.Text = "Close";
+            this.CloseButton.Text = Mono.Unix.Catalog.GetString("Close");
             this.CloseButton.UseVisualStyleBackColor = false;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
@@ -99,7 +99,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(663, 375);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Options";
+            this.tabPage1.Text = Mono.Unix.Catalog.GetString("Options");
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // BrowseButton
@@ -111,7 +111,7 @@
             this.BrowseButton.Name = "BrowseButton";
             this.BrowseButton.Size = new System.Drawing.Size(42, 31);
             this.BrowseButton.TabIndex = 11;
-            this.BrowseButton.Text = "...";
+            this.BrowseButton.Text = Mono.Unix.Catalog.GetString("...");
             this.BrowseButton.UseVisualStyleBackColor = false;
             this.BrowseButton.Click += new System.EventHandler(this.BrowseButton_Click);
             // 
@@ -135,7 +135,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 25);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Working Directory:";
+            this.label5.Text = Mono.Unix.Catalog.GetString("Working Directory:");
             // 
             // ScriptInput
             // 
@@ -178,7 +178,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 25);
             this.label3.TabIndex = 14;
-            this.label3.Text = "Shortcut:";
+            this.label3.Text = Mono.Unix.Catalog.GetString("Shortcut:");
             // 
             // label2
             // 
@@ -188,7 +188,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 25);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Script:";
+            this.label2.Text = Mono.Unix.Catalog.GetString("Script:");
             // 
             // SecondsInput
             // 
@@ -216,7 +216,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 25);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Time:";
+            this.label1.Text = Mono.Unix.Catalog.GetString("Time:");
             // 
             // tabPage2
             // 
@@ -229,7 +229,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(663, 375);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "People";
+            this.tabPage2.Text = Mono.Unix.Catalog.GetString("People");
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // CommitScript
@@ -256,7 +256,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 25);
             this.label4.TabIndex = 18;
-            this.label4.Text = "Commit script:";
+            this.label4.Text = Mono.Unix.Catalog.GetString("Commit script:");
             // 
             // ParticipantsInput
             // 
@@ -283,7 +283,7 @@
             this.KeepTrackInput.Name = "KeepTrackInput";
             this.KeepTrackInput.Size = new System.Drawing.Size(318, 29);
             this.KeepTrackInput.TabIndex = 0;
-            this.KeepTrackInput.Text = "Keep track of who participated";
+            this.KeepTrackInput.Text = Mono.Unix.Catalog.GetString("Keep track of who participated");
             this.KeepTrackInput.UseVisualStyleBackColor = true;
             // 
             // ResetButton
@@ -298,7 +298,7 @@
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(178, 43);
             this.ResetButton.TabIndex = 10;
-            this.ResetButton.Text = "Reset";
+            this.ResetButton.Text = Mono.Unix.Catalog.GetString("Reset");
             this.ResetButton.UseVisualStyleBackColor = false;
             this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
@@ -311,9 +311,9 @@
             this.formTitleBar1.Name = "formTitleBar1";
             this.formTitleBar1.Size = new System.Drawing.Size(695, 60);
             this.formTitleBar1.TabIndex = 9;
-            this.formTitleBar1.TitleDescription = "Change whatever you want. Then close me. That\'s it.";
+            this.formTitleBar1.TitleDescription = Mono.Unix.Catalog.GetString("Change whatever you want. Then close me. That\'s it.");
             this.formTitleBar1.TitleIcon = "@";
-            this.formTitleBar1.TitleText = "How should I behave?";
+            this.formTitleBar1.TitleText = Mono.Unix.Catalog.GetString("How should I behave?");
             // 
             // OptionsForm
             // 
