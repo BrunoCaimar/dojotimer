@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="c:\Users\BrunoCaimar\Documents\GitHub\dojotimer\src\Helpers\Options.cs">
+    <Files>
+      <File FileName="Program.cs" Line="19" Column="48" />
+      <File FileName="DojoTimerLocalization\pt_BR.po" />
+      <File FileName="MainForm.cs" Line="121" Column="22" />
+      <File FileName="MainForm.Designer.cs" Line="248" Column="100" />
+      <File FileName="c:\Users\BrunoCaimar\Documents\GitHub\dojotimer\src\Helpers\Options.cs" Line="19" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

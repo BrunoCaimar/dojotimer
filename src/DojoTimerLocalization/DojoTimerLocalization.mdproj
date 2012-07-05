@@ -2,19 +2,23 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ItemType>TranslationProject</ItemType>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3DC716EC-3992-4ED5-82EF-653F1DA92C0B}</ProjectGuid>
     <relPath>locale</relPath>
     <outputType>RelativeToOutput</outputType>
-    <packageName>i8n1</packageName>
+    <packageName>DojoTimer</packageName>
     <translations>
       <translations>
         <Translation isoCode="pt_BR" />
-        <Translation isoCode="en" />
       </translations>
     </translations>
+    <projectInformations>
+      <projectInformations>
+        <TranslationProjectInformation projectName="DojoTimer" isIncluded="true" />
+      </projectInformations>
+    </projectInformations>
   </PropertyGroup>
 </Project>
