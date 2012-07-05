@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-07-05 17:13:39-0300\n"
+"PO-Revision-Date: 2012-07-05 17:13:39-0300\n"
+"Last-Translator: BrunoCaimar\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: MonoDevelop Gettext addin\n"
+
+
+#: ../OptionsForm.cs:74
+msgid ""
+"The directory you selected doesn't seem to exist. Are you sure you want to "
+"close?"
+msgstr ""
+
+#: ../OptionsForm.cs:83
+msgid "Are you sure?"
+msgstr ""
+
+#: ../OptionsForm.cs:83
+msgid "Confirmation"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:66
+#: ../MainForm.Designer.cs:248
+msgid "Close"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:101
+msgid "Options"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:113
+msgid "..."
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:137
+msgid "Working Directory:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:180
+msgid "Shortcut:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:190
+msgid "Script:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:218
+msgid "Time:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:231
+msgid "People"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:258
+msgid "Commit script:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:285
+msgid "Keep track of who participated"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:300
+#: ../MainForm.Designer.cs:254
+msgid "Reset"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:313
+msgid "Change whatever you want. Then close me. That's it."
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:315
+msgid "How should I behave?"
+msgstr ""
+
+#: ../MainForm.Designer.cs:246
+msgid "Settings"
+msgstr ""
+
+#: ../MainForm.Designer.cs:247
+msgid "Commit"
+msgstr ""
+
+#: ../MainForm.Designer.cs:249
+msgid "Always on Top"
+msgstr ""
+
+#: ../MainForm.Designer.cs:252
+msgid "Run"
+msgstr ""
+
+#: ../MainForm.Designer.cs:253
+msgid "Start"
+msgstr ""
+
+#: ../OutputWindow.cs:44
+msgid "SUCCEEDED"
+msgstr ""
+
+#: ../OutputWindow.cs:44
+msgid "FAILED"
+msgstr ""
+
+#: ../OutputWindow.cs:46
+msgid "Yay, it works!"
+msgstr ""
+
+#: ../OutputWindow.cs:46
+msgid "Gotta fix it. Bad, bad programmer."
+msgstr ""
+
+#: ../OutputWindow.Designer.cs:50
+msgid "Running..."
+msgstr ""
+
+#: ../OutputWindow.Designer.cs:62
+msgid "Close (press ENTER)"
+msgstr ""
+
+#: ../OutputWindow.Designer.cs:75
+msgid "The result of everything we did here. We want it GREEN!"
+msgstr ""
+
+#: ../OutputWindow.Designer.cs:77
+msgid "Running tests..."
+msgstr ""
+
+#: ../OutputWindow.Designer.cs:92
+msgid "Output"
+msgstr ""
+
+#: ../WhoWasHereForm.cs:60
+msgid "Please, if you want to save, make sure you fill both boxes."
+msgstr ""
+
+#: ../WhoWasHereForm.cs:61
+msgid "Validation"
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:72
+msgid "Save and commit."
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:87
+msgid "Save, but don't commit."
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:103
+msgid "Leave me alone!"
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:115
+msgid "Hey, you, click here!"
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:127
+msgid "The one will stay should come first."
+msgstr ""
+
+#: ../WhoWasHereForm.Designer.cs:129
+msgid "Who was here?"
+msgstr ""
+

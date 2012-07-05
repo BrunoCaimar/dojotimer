@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-07-05 17:13:39-0300\n"
+"PO-Revision-Date: 2012-07-05 17:19:40-0300\n"
+"Last-Translator: BrunoCaimar\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: MonoDevelop Gettext addin\n"
+
+
+#: ../OptionsForm.cs:74
+msgid ""
+"The directory you selected doesn't seem to exist. Are you sure you want to "
+"close?"
+msgstr ""
+"A pasta que você selecionou parece não existir. Tem certeza que deseja "
+"fechar?"
+
+#: ../OptionsForm.cs:83
+msgid "Are you sure?"
+msgstr "Tem certeza?"
+
+#: ../OptionsForm.cs:83
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#: ../OptionsForm.Designer.cs:66
+#: ../MainForm.Designer.cs:248
+msgid "Close"
+msgstr "Fechar"
+
+#: ../OptionsForm.Designer.cs:101
+msgid "Options"
+msgstr "Opções"
+
+#: ../OptionsForm.Designer.cs:113
+msgid "..."
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:137
+msgid "Working Directory:"
+msgstr "Pasta de Trabalho:"
+
+#: ../OptionsForm.Designer.cs:180
+msgid "Shortcut:"
+msgstr "Atalho:"
+
+#: ../OptionsForm.Designer.cs:190
+msgid "Script:"
+msgstr ""
+
+#: ../OptionsForm.Designer.cs:218
+msgid "Time:"
+msgstr "Tempo:"
+
+#: ../OptionsForm.Designer.cs:231
+msgid "People"
+msgstr "Pessoas"
+
+#: ../OptionsForm.Designer.cs:258
+msgid "Commit script:"
+msgstr "Script de commit:"
+
+#: ../OptionsForm.Designer.cs:285
+msgid "Keep track of who participated"
+msgstr "Manter registro de quem participou"
+
+#: ../OptionsForm.Designer.cs:300
+#: ../MainForm.Designer.cs:254
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ../OptionsForm.Designer.cs:313
+msgid "Change whatever you want. Then close me. That's it."
+msgstr "Altere o que você quiser. Depois feche. É isso."
+
+#: ../OptionsForm.Designer.cs:315
+msgid "How should I behave?"
+msgstr "Como eu devo me comportar?"
+
+# ou seria melhor Opções?
+#: ../MainForm.Designer.cs:246
+msgid "Settings"
+msgstr "Configurações"
+
+# Não sei como traduzir isso
+#: ../MainForm.Designer.cs:247
+msgid "Commit"
+msgstr ""
+
+#: ../MainForm.Designer.cs:249
+msgid "Always on Top"
+msgstr "Sempre no topo"
+
+#: ../MainForm.Designer.cs:252
+msgid "Run"
+msgstr "Executar"
+
+#: ../MainForm.Designer.cs:253
+msgid "Start"
+msgstr "Iniciar"
+
+#: ../OutputWindow.cs:44
+msgid "SUCCEEDED"
+msgstr "Sucesso"
+
+#: ../OutputWindow.cs:44
+msgid "FAILED"
+msgstr "Falhou"
+
+#: ../OutputWindow.cs:46
+msgid "Yay, it works!"
+msgstr "Sim, funciona!"
+
+# Não se como traduzir isso de forma que fique bom.
+#: ../OutputWindow.cs:46
+msgid "Gotta fix it. Bad, bad programmer."
+msgstr "Vá arrumar isso. Bad, bad programmer."
+
+#: ../OutputWindow.Designer.cs:50
+msgid "Running..."
+msgstr "Executando..."
+
+#: ../OutputWindow.Designer.cs:62
+msgid "Close (press ENTER)"
+msgstr "Fechar (pressione ENTER)"
+
+#: ../OutputWindow.Designer.cs:75
+msgid "The result of everything we did here. We want it GREEN!"
+msgstr "O resultado de tudo que fizemos aqui. Nós queremos isso VERDE!"
+
+#: ../OutputWindow.Designer.cs:77
+msgid "Running tests..."
+msgstr "Executando os testes..."
+
+# Retorno??
+#: ../OutputWindow.Designer.cs:92
+msgid "Output"
+msgstr "Retorno"
+
+#: ../WhoWasHereForm.cs:60
+msgid "Please, if you want to save, make sure you fill both boxes."
+msgstr ""
+"Por favor, se você deseja salvar, certifique-se de preencher ambos os campos."
+
+#: ../WhoWasHereForm.cs:61
+msgid "Validation"
+msgstr "Validação"
+
+# Como traduzir isso (commit)?
+#: ../WhoWasHereForm.Designer.cs:72
+msgid "Save and commit."
+msgstr "Salvar e commit"
+
+# Como traduzir isso (commit)?
+#: ../WhoWasHereForm.Designer.cs:87
+msgid "Save, but don't commit."
+msgstr "Salvar, mas não commit."
+
+#: ../WhoWasHereForm.Designer.cs:103
+msgid "Leave me alone!"
+msgstr "Me deixe em paz!"
+
+#: ../WhoWasHereForm.Designer.cs:115
+msgid "Hey, you, click here!"
+msgstr "Ei, você, clique aqui!"
+
+#: ../WhoWasHereForm.Designer.cs:127
+msgid "The one will stay should come first."
+msgstr "Quem irá ficar deve vir primeiro."
+
+#: ../WhoWasHereForm.Designer.cs:129
+msgid "Who was here?"
+msgstr "Quem estava aqui?"
+
+#, fuzzy
+#~ msgid "Test"
+#~ msgstr "Reiniciar"
+
